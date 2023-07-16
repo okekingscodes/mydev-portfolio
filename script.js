@@ -1,5 +1,5 @@
 /*=============== SHOW MENU ===============*/
-const navMenu = document.getElementById('nav-menu'),
+const navMenu = document.getElementById('nav-menu');
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
 
@@ -105,7 +105,7 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: '2500',
     delay: 400,
-    reset: true //animations repeart
+    reset: true //animations repeat
 })
 sr.reveal(`.home__data, .home__social, .contact__container, .footer__container`)
 sr.reveal(`.home__image`, {origin: 'bottom'})
